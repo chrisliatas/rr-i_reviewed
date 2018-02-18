@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:IReviewed
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Book	app/models/book.rb	/^class Book < ActiveRecord::Base$/;"	c
+BookTest	test/models/book_test.rb	/^class BookTest < ActiveSupport::TestCase$/;"	c
+BooksController	app/controllers/books_controller.rb	/^class BooksController < ApplicationController$/;"	c
+BooksControllerTest	test/controllers/books_controller_test.rb	/^class BooksControllerTest < ActionController::TestCase$/;"	c
+BooksHelper	app/helpers/books_helper.rb	/^module BooksHelper$/;"	m
+CreateBooks	db/migrate/20180217103027_create_books.rb	/^class CreateBooks < ActiveRecord::Migration$/;"	c
+CreateNotes	db/migrate/20180217103102_create_notes.rb	/^class CreateNotes < ActiveRecord::Migration$/;"	c
+CreateReviewers	db/migrate/20180217102948_create_reviewers.rb	/^class CreateReviewers < ActiveRecord::Migration$/;"	c
+IReviewed	config/application.rb	/^module IReviewed$/;"	m
+Note	app/models/note.rb	/^class Note < ActiveRecord::Base$/;"	c
+NoteTest	test/models/note_test.rb	/^class NoteTest < ActiveSupport::TestCase$/;"	c
+NotesController	app/controllers/notes_controller.rb	/^class NotesController < ApplicationController$/;"	c
+NotesControllerTest	test/controllers/notes_controller_test.rb	/^class NotesControllerTest < ActionController::TestCase$/;"	c
+NotesHelper	app/helpers/notes_helper.rb	/^module NotesHelper$/;"	m
+Reviewer	app/models/reviewer.rb	/^class Reviewer < ActiveRecord::Base$/;"	c
+ReviewerTest	test/models/reviewer_test.rb	/^class ReviewerTest < ActiveSupport::TestCase$/;"	c
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsControllerTest	test/controllers/sessions_controller_test.rb	/^class SessionsControllerTest < ActionController::TestCase$/;"	c
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+book_params	app/controllers/books_controller.rb	/^    def book_params$/;"	f	class:BooksController
+change	db/migrate/20180217102948_create_reviewers.rb	/^  def change$/;"	f	class:CreateReviewers
+change	db/migrate/20180217103027_create_books.rb	/^  def change$/;"	f	class:CreateBooks
+change	db/migrate/20180217103102_create_notes.rb	/^  def change$/;"	f	class:CreateNotes
+create	app/controllers/books_controller.rb	/^  def create$/;"	f	class:BooksController
+create	app/controllers/notes_controller.rb	/^  def create$/;"	f	class:NotesController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+current_user	app/controllers/application_controller.rb	/^    def current_user$/;"	f	class:ApplicationController
+destroy	app/controllers/books_controller.rb	/^  def destroy$/;"	f	class:BooksController
+destroy	app/controllers/notes_controller.rb	/^  def destroy$/;"	f	class:NotesController
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+edit	app/controllers/books_controller.rb	/^  def edit$/;"	f	class:BooksController
+ensure_login	app/controllers/application_controller.rb	/^    def ensure_login$/;"	f	class:ApplicationController
+index	app/controllers/books_controller.rb	/^  def index$/;"	f	class:BooksController
+logged_in?	app/controllers/application_controller.rb	/^    def logged_in?$/;"	f	class:ApplicationController
+new	app/controllers/books_controller.rb	/^  def new$/;"	f	class:BooksController
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+note_params	app/controllers/notes_controller.rb	/^    def note_params$/;"	f	class:NotesController
+set_book	app/controllers/books_controller.rb	/^    def set_book$/;"	f	class:BooksController
+set_book	app/controllers/notes_controller.rb	/^    def set_book$/;"	f	class:NotesController
+show	app/controllers/books_controller.rb	/^  def show$/;"	f	class:BooksController
+update	app/controllers/books_controller.rb	/^  def update$/;"	f	class:BooksController

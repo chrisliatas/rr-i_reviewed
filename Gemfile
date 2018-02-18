@@ -46,8 +46,8 @@ group :development do
 end
 
 group :production do
-  gem pg
-  gem rails_12factor
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 gem 'will_paginate', '~> 3.0.6'
